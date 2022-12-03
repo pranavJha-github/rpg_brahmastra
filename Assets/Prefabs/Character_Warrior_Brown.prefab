@@ -31,6 +31,37 @@ Transform:
   m_Father: {fileID: 5961169247974336423}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4131982480999589521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8312258931644152031}
+  m_Layer: 3
+  m_Name: CameraFocusGOMiddle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8312258931644152031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4131982480999589521}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.149, z: -0.024}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5961169247974336423}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5961169247973967485
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,7 +281,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5961169247974336423}
+<<<<<<< HEAD
   m_RootOrder: 5
+=======
+  m_RootOrder: 6
+>>>>>>> 0abfb2c (RPG-1 Fix cinemachine stutter : Made the gada layer player causing disruption in camera)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &5961169247977095877
 SkinnedMeshRenderer:
@@ -416,7 +451,11 @@ Transform:
   m_Children:
   - {fileID: 5961169247974437189}
   m_Father: {fileID: 5961169247974336423}
+<<<<<<< HEAD
   m_RootOrder: 8
+=======
+  m_RootOrder: 9
+>>>>>>> 0abfb2c (RPG-1 Fix cinemachine stutter : Made the gada layer player causing disruption in camera)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5961169247973985465
 GameObject:
@@ -883,7 +922,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5961169247974336423}
+<<<<<<< HEAD
   m_RootOrder: 3
+=======
+  m_RootOrder: 4
+>>>>>>> 0abfb2c (RPG-1 Fix cinemachine stutter : Made the gada layer player causing disruption in camera)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &5961169247977280317
 SkinnedMeshRenderer:
@@ -1017,7 +1060,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5961169247974336423}
+<<<<<<< HEAD
   m_RootOrder: 6
+=======
+  m_RootOrder: 7
+>>>>>>> 0abfb2c (RPG-1 Fix cinemachine stutter : Made the gada layer player causing disruption in camera)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &5961169247977124117
 SkinnedMeshRenderer:
@@ -1215,7 +1262,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5961169247974336423}
+<<<<<<< HEAD
   m_RootOrder: 4
+=======
+  m_RootOrder: 5
+>>>>>>> 0abfb2c (RPG-1 Fix cinemachine stutter : Made the gada layer player causing disruption in camera)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &5961169247977299561
 SkinnedMeshRenderer:
@@ -1485,6 +1536,10 @@ Transform:
   m_Children:
   - {fileID: 3290473703090889626}
   - {fileID: 7381936640324832382}
+<<<<<<< HEAD
+=======
+  - {fileID: 8312258931644152031}
+>>>>>>> 0abfb2c (RPG-1 Fix cinemachine stutter : Made the gada layer player causing disruption in camera)
   - {fileID: 7612503425318686122}
   - {fileID: 5961169247974351159}
   - {fileID: 5961169247974363879}
@@ -2956,7 +3011,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5961169247974336423}
+<<<<<<< HEAD
   m_RootOrder: 7
+=======
+  m_RootOrder: 8
+>>>>>>> 0abfb2c (RPG-1 Fix cinemachine stutter : Made the gada layer player causing disruption in camera)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &5961169247977094945
 SkinnedMeshRenderer:
@@ -3439,7 +3498,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7544734706425547500}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 1.749, z: -0.511}
+=======
+  m_LocalPosition: {x: 0, y: 0.562, z: -0.024}
+>>>>>>> 0abfb2c (RPG-1 Fix cinemachine stutter : Made the gada layer player causing disruption in camera)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3478,7 +3541,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5961169247974336423}
+<<<<<<< HEAD
   m_RootOrder: 2
+=======
+  m_RootOrder: 3
+>>>>>>> 0abfb2c (RPG-1 Fix cinemachine stutter : Made the gada layer player causing disruption in camera)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &976593292553821387
 MonoBehaviour:
