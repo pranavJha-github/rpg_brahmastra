@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 657563735421477887}
   - component: {fileID: 8358684145856544670}
   - component: {fileID: 3567614023046890260}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Gada Hero_FBX2
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 6889302172608692225}
   - component: {fileID: 8866157162844752763}
   - component: {fileID: 2421790772332248732}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Gada Armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -159,7 +159,7 @@ GameObject:
   - component: {fileID: 5949306014783479333}
   - component: {fileID: 4959296988253191249}
   - component: {fileID: 7879329556415722187}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 3877762828340253768}
   - component: {fileID: 2391474860813355785}
   - component: {fileID: 4696279632041607003}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Cube.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -325,7 +325,7 @@ GameObject:
   - component: {fileID: 1983028373850637770}
   - component: {fileID: 8099666656421846302}
   - component: {fileID: 4533546350168038114}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Gada Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -408,7 +408,7 @@ GameObject:
   - component: {fileID: 4613939066937249744}
   - component: {fileID: 5507133357205172361}
   - component: {fileID: 73848268132167597}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Cylinder.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
