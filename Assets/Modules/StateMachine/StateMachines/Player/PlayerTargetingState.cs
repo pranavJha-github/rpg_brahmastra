@@ -20,12 +20,12 @@ public class PlayerTargetingState : PlayerBaseState
         stateMachine.InputReader.TargetEvent += OnCancelTarget;
         stateMachine.Animator.CrossFadeInFixedTime(TargetingBlendTreeHash, CrossFadeDuration);
     }
-
-    
-
+        
     public override void Tick(float deltaTime)
     {
-        if(stateMachine.InputReader.IsAttacking)
+        
+
+        if (stateMachine.InputReader.IsAttacking)
         {
             stateMachine.SwitchState(new PlayerAttackingState(stateMachine, 0));
             return;
@@ -46,6 +46,7 @@ public class PlayerTargetingState : PlayerBaseState
         Move(movement * stateMachine.TargetingMovementSpeed, deltaTime);
         UpdateAnimator(deltaTime);
         FaceTarget();
+        Camera.main.fieldOfView = 30;
     }
 
 

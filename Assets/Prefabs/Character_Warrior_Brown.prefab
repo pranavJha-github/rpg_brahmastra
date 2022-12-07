@@ -1715,6 +1715,7 @@ GameObject:
   - component: {fileID: 1715303364760568387}
   - component: {fileID: 2965723791844222961}
   - component: {fileID: 912352166941554817}
+  - component: {fileID: 5439188806960933765}
   - component: {fileID: 5035502818575242361}
   - component: {fileID: 284064968856394309}
   - component: {fileID: 2779649618501920952}
@@ -1816,6 +1817,19 @@ MonoBehaviour:
   controller: {fileID: 1715303364760568387}
   agent: {fileID: 0}
   drag: 0.091
+--- !u!114 &5439188806960933765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5961169247974145775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 089f7439b2bcc6a43b46683f10766e07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slowMotionTimescale: 0.1
 --- !u!114 &5035502818575242361
 MonoBehaviour:
   m_ObjectHideFlags: 0
