@@ -1042,7 +1042,7 @@ Transform:
   m_Children:
   - {fileID: 673393203721119651}
   m_Father: {fileID: 673393203721033179}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &673393203720862073
 GameObject:
@@ -1278,8 +1278,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 673393203720870961}
-  m_LocalRotation: {x: -0.0000000023971376, y: -0.000000088734716, z: -0.2700159,
-    w: 0.9628559}
+  m_LocalRotation: {x: -0.0000000023971376, y: -0.000000088734716, z: -0.2700159, w: 0.9628559}
   m_LocalPosition: {x: -0.112840414, y: 0.0000000111758585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2061,6 +2060,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 673393203721087597}
+  - {fileID: 6932784806747599680}
   - {fileID: 673393203721081091}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -2177,7 +2177,6 @@ MonoBehaviour:
   <MovementSpeed>k__BackingField: 3
   <Health>k__BackingField: {fileID: 2901726211989054865}
   <Target>k__BackingField: {fileID: 1235103303648990585}
-  <Ragdoll>k__BackingField: {fileID: 3046132525069100587}
   <PlayerChasingRange>k__BackingField: 30
   <AttackRange>k__BackingField: 1.5
   <AttackDamage>k__BackingField: 20
@@ -2868,6 +2867,37 @@ Transform:
   - {fileID: 5993861207454993985}
   m_Father: {fileID: 673393203721093603}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2676859509989325332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6932784806747599680}
+  m_Layer: 8
+  m_Name: FollowTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6932784806747599680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2676859509989325332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.771, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 673393203721033179}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7913632931213689786
 GameObject:
