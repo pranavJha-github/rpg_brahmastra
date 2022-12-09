@@ -19,6 +19,7 @@ public class PlayerTargetingState : PlayerBaseState
     {
         stateMachine.InputReader.TargetEvent += OnCancelTarget;
         stateMachine.Animator.CrossFadeInFixedTime(TargetingBlendTreeHash, CrossFadeDuration);
+        stateMachine.CinemachineManager.SetActiveCamera("TargetingCamera");
     }
         
     public override void Tick(float deltaTime)

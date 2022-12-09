@@ -13,6 +13,7 @@ public class PlayerFreeLookState : PlayerBaseState
     {
         stateMachine.InputReader.TargetEvent += OnTarget;
         stateMachine.Animator.CrossFadeInFixedTime(FreeLookBlendTreeHash, CrossFadeDuration);
+        stateMachine.CinemachineManager.SetActiveCamera("FreeLookCamera");
     }
 
     public override void Tick(float deltaTime)

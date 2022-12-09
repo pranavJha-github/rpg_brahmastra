@@ -17,8 +17,9 @@ public class PlayerStateMachine : StateMachine
     [field: SerializeField] public float TargetingMovementSpeed { get; private set; }
     [field: SerializeField] public float RoatationDamping { get; private set; }
     [field: SerializeField] public Attack[] Attacks { get; private set; }
+    [field: SerializeField] public CinemachineManager CinemachineManager { get; private set; }
 
-    
+
     public Transform MainCameraTransform { get; private set; }
     void Start()
     {
