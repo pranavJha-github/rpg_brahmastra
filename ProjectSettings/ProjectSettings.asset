@@ -799,7 +799,10 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: USE_CINEMACHINE;USE_NEW_INPUT;TMP_PRESENT;USE_TIMELINE
+    Standalone: USE_CINEMACHINE;USE_NEW_INPUT;TMP_PRESENT;USE_TIMELINE
+    iPhone: USE_CINEMACHINE;USE_NEW_INPUT;TMP_PRESENT;USE_TIMELINE
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

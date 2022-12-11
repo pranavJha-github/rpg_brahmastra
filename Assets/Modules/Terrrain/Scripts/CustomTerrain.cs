@@ -1235,7 +1235,6 @@ public class CustomTerrain : MonoBehaviour
 
    void Start()
     {
-        UnityEngine.Debug.Log("Terrain Layer:" + terrainLayer);
     }
 
     // Update is called once per frame
